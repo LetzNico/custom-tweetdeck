@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "CustomTweetDeck.user.js" ],
+        "matches":          [   "https://tweetdeck.twitter.com/*",
+            "http://*.tweetdeck.twitter.com/*",
+            "https://*.tweetdeck.twitter.com/*"],
+            "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Only tweets&retweets",
+    "name":         "Custom TweetDeck",
+    "version":      "1",
+    "icons":
+    {
+        "128": "icon128.png"
+    }
+}
