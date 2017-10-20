@@ -13,7 +13,7 @@
 // ==/UserScript==
 (function() {var css = [
 	".column-type-home, .column-type-home .column-header, .column-type-home .column-content {",
-	"    width: 1000px !important;",
+	"    width: 100% !important;",
 	"}",
     ".column-header, .column-header-temp {",
     "   height: 0px !important;",
